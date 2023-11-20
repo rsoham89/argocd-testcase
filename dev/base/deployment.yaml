@@ -5,6 +5,8 @@ metadata:
   namespace: app
   labels:
     app: nginx
+    type: load balancer service
+
 spec:
   replicas: 3
   selector:
